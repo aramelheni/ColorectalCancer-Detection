@@ -62,3 +62,9 @@ Asma Amdouni (SMU)
 
 This project demonstrates that **automated DNA preprocessing + machine learning** can provide a scalable and reliable solution for early colorectal cancer detection from microbiome data.  
 By automating the preprocessing pipeline and testing multiple models, we show that **Logistic Regression** is the most effective approach, paving the way for clinical integration.  
+
+---
+
+## License
+
+This project is open-source and available under the MIT License. See the [LICENSE](LICENSE) file for details.
