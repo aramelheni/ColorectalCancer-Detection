@@ -1,14 +1,12 @@
+# %% [code]
 import pandas as pd
 import numpy as np
-import os
 
-# Base path setup
-base_path = os.path.dirname(__file__)
-
-# Paths to all files (now .csv)
-seqtab_path = os.path.join(base_path, 'filtered', 'results', 'seqtab_nochim.csv')
-metadata_path = os.path.join(base_path, 'filtered', 'metadata.csv')
-taxa_path = os.path.join(base_path, 'filtered', 'results', 'taxa.csv')
+# ==================== KAGGLE CONFIGURATION ====================
+# Paths to all files from Kaggle datasets
+seqtab_path = '/kaggle/input/datasets/aramelheni/16s-rrna-microbiome-sequencing-analysis-dataset/filtered/results/seqtab_nochim.csv'
+metadata_path = '/kaggle/input/crc-gut-microbiome-ml-data/metadata.csv'
+taxa_path = '/kaggle/input/datasets/aramelheni/16s-rrna-microbiome-sequencing-analysis-dataset/filtered/results/taxonomy_table_species.csv'
 
 # ✅ Load sequence table (CSV)
 df_seqtab = pd.read_csv(seqtab_path, index_col=0)
