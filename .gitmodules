@@ -1,3 +1,3 @@
 [submodule "crc-ai-model"]
 	path = crc-ai-model
-	url = https://github.com/aramelheni/crc-ai-model/main.git
+	url = https://github.com/aramelheni/crc-ai-model.git
